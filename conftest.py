@@ -10,4 +10,4 @@ def driver():
     driver.maximize_window()
     driver.implicitly_wait(3)
     yield driver
-    driver.quit()
+    driver.close()
