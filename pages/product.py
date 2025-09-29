@@ -6,5 +6,5 @@ class ProductPage:
         self.driver = driver
 
     def check_title_is(self, title):
-        page_title = self.driver.find_element_is(By.CSS_SELECTOR, 'h2')
+        page_title = self.driver.find_element(By.CSS_SELECTOR, 'h2')
         assert page_title.text == title
