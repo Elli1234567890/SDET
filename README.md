@@ -1,5 +1,6 @@
 # SDET
 
+run_tests.yml
 name: Run autotests
 
 on:
